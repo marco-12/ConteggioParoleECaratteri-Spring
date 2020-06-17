@@ -8,10 +8,7 @@
 </head>
 <body>
 
-La frase ${frase } <br>
-Contiene ${parole} parole<br>
-Contiene ${vocali} vocali <br>
-Contiene ${consonanti} consonanti <br>
+${ris} 
 
 </body>
 </html>

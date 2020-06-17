@@ -12,13 +12,13 @@ public class Conteggio {
 		this.frase = frase;
 	}
 
-	public int contaParole(String frase) {
+	public int contaParole() {
 		String[] parole = frase.split(" ");
 		return parole.length;
 
 	}
 
-	public int contaVocali(String frase) {
+	public int contaVocali() {
 
 		int numeroVocali = 0;
 
@@ -39,7 +39,7 @@ public class Conteggio {
 		return numeroVocali;
 	}
 
-	public int contaConsonanti(String frase) {
+	public int contaConsonanti() {
 
 		int numeroConsonanti = 0;
 

@@ -20,7 +20,7 @@ public class ControllerVocali {
 
 		prossimaJSP.setViewName("risultato");
 		prossimaJSP.addObject("frase", frase);
-		prossimaJSP.addObject("vocali", cont.contaVocali(frase));
+		prossimaJSP.addObject("ris", cont.contaVocali());
 
 		return prossimaJSP;
 	}

@@ -20,7 +20,7 @@ public class ControllerConsonanti {
 
 		prossimaJSP.setViewName("risultato");
 		prossimaJSP.addObject("frase", frase);
-		prossimaJSP.addObject("consonanti", cont.contaConsonanti(frase));
+		prossimaJSP.addObject("ris", cont.contaConsonanti());
 
 		return prossimaJSP;
 	}
